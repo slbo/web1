@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ex-grid</title>
+  <style>
+    #grid{
+      border:5px solid pink;
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    div,span{
+      border:5px solid gray;
+    }
+  </style>
+</head>
+<body>
+<div id="grid">
+  <div>NAVIGATION</div>
+  <span>ARTICLE</span>
+</div>
+<table border="1" width=100px>
+  <caption>Table</caption>
+  <tr><td>1</td><td>2</td><th>3</th></tr>
+    <tr><td colspan="2">45</td><th>6</th></tr>
+    <tr><td>7</td><td>8</td><th rowspan="2">6</th></tr>
+</table>
+</body>
+</html>
